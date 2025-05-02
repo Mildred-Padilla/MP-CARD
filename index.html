@@ -9,51 +9,19 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden; /* Evita barras de desplazamiento no deseadas */
+      overflow: hidden;
     }
     iframe {
       width: 100%;
-      height: 100vh; /* Utiliza toda la altura visible de la pantalla */
+      height: 100vh;
       border: none;
-    }
-    /* Estilos para los enlaces flotantes (no interfieren con el diseño de Figma) */
-    .links {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      z-index: 999; /* Mantiene los enlaces por encima del iframe */
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .link-btn {
-      padding: 10px 20px;
-      background-color: #25D366; /* Color verde de WhatsApp */
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      text-align: center;
-      font-size: 16px;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .link-btn:hover {
-      background-color: #128C7E; /* Color verde oscuro de WhatsApp */
     }
   </style>
 </head>
 <body>
-  <!-- Prototipo de Figma embebido -->
   <iframe
     src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/4iAMJ34g5dhWfUXEJNsMSg/MP-CARD?node-id=0-1&t=yBO9NdePy1iVWra6-1"
     allowfullscreen
   ></iframe>
-
-  <!-- Enlaces interactivos debajo del prototipo -->
-  <div class="links">
-    <!-- Enlace a WhatsApp -->
-    <a href="https://wa.me/521234567890" class="link-btn" target="_blank">Contactar por WhatsApp</a>
-    <!-- Enlace a Google Maps -->
-    <a href="https://www.google.com/maps?q=19.432608,-99.133209" class="link-btn" target="_blank">Ver en el mapa</a>
-  </div>
 </body>
 </html>
